@@ -63,8 +63,8 @@ qstring  \"[^\"\n]*[\"\n]
 "CHAR"                  { return K_CHR; }
 "BOOLEAN"               { return K_BOL; }
 "ARRAY"                 { return K_ARY; }
-"REAL"					{ return K_REA; }
-"LONGREAL"				{ return K_LRE: }
+"REAL"                  { return K_REA; }
+"LONGREAL"              { return K_LRE: }
 
 "AND"                   { return AND; }
 "OR"                    { return OR; }
